@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const WeatherIcon = ({ code }) => (
-  <img src={`http://openweathermap.org/img/w/${code}.png`} alt="Weather Icon" />
+  <img src={`https://openweathermap.org/img/w/${code}.png`} alt="Weather Icon" />
 );
 
 WeatherIcon.propTypes = {
